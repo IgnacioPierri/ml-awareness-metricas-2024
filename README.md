@@ -48,8 +48,9 @@ El proyecto se compone de los siguientes scripts:
 
 1. **Clonar el repositorio:**  
    
-   git clone <URL_DEL_REPOSITORIO>
-   cd <NOMBRE_DEL_REPOSITORIO>
+    git clone https://github.com/IgnacioPierri/ml-awareness-metricas-2024
+    cd ml-awareness-metricas-2024
+
 
 2. **Instalar dependencias:**  
     
