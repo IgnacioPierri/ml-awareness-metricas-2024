@@ -19,6 +19,11 @@ Este proyecto es una solución para el challenge de automatización de métricas
 - **Elementos adicionales:**  
   En el sidebar se incluye un filtro por BU, una sección "Acerca de" con enlace a mi [LinkedIn](https://www.linkedin.com/in/ignacio-pierri/) y un botón interactivo que muestra un aviso de seguridad al acceder a un link externo para ver ataques en tiempo real.
 
+## Live Demo
+
+Puedes ver el dashboard en vivo en [Streamlit Cloud](https://meli-awareness-metricas-2024.streamlit.app/).
+
+
 ## Estructura del Proyecto
 
 El proyecto se compone de los siguientes scripts:
