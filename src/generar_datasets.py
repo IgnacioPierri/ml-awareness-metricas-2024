@@ -4,7 +4,10 @@ from faker import Faker
 from datetime import date
 
 # Ruta de la base de datos (se espera que ya exista la base creada con setup_db.py)
-DB_PATH = "../db/database.db"
+import os
+
+DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'db', 'database.db')
+
 
 # Instanciar Faker para generar datos ficticios
 fake = Faker()

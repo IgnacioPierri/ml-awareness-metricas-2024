@@ -37,7 +37,10 @@ En este dashboard podrás visualizar:
 # Se conecta a la base de datos y se cargan los datos de:
 # - 'historico_kpis': contiene las métricas calculadas mensualmente.
 # - 'usuarios', 'capacitaciones' y 'capacitaciones_por_usuario': datos crudos para análisis adicional.
-DB_PATH = "../db/database.db"
+import os
+
+DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'db', 'database.db')
+
 conn = sqlite3.connect(DB_PATH)
 
 df_historico = pd.read_sql("""

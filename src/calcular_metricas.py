@@ -4,7 +4,10 @@ from datetime import datetime, date
 import calendar
 
 # Ruta de la base de datos (se asume que ya fue creada con setup_db.py)
-DB_PATH = "../db/database.db"
+import os
+
+DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'db', 'database.db')
+
 
 def calcular_metricas():
     """
