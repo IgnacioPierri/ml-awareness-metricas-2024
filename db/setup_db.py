@@ -2,7 +2,10 @@ import sqlite3
 import os
 
 # Ruta donde se almacenará la base de datos
-DB_PATH = "../db/database.db"
+import os
+
+DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'db', 'database.db')
+
 
 # 🔥 Si ya existe una base de datos en la ruta especificada, la eliminamos
 # Esto se hace para evitar inconsistencias y asegurarnos de empezar con un entorno limpio.
